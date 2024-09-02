@@ -3,7 +3,7 @@ import { notFound } from "next/navigation"
 
 import AddressBook from "@modules/account/components/address-book"
 
-import { getCustomer, getRegion } from "@lib/data"
+import { getCustomer, getRegion } from "app/lib/data"
 
 import { headers } from "next/headers"
 
