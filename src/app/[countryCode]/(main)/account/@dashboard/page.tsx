@@ -1,6 +1,6 @@
 import { Metadata } from "next"
 
-import { getCustomer, listCustomerOrders } from "app/lib/data"
+import { getCustomer, listCustomerOrders } from "@lib/data"
 import Overview from "@modules/account/components/overview"
 import { notFound } from "next/navigation"
 
